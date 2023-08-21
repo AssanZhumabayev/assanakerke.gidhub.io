@@ -1,199 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link rel="stylesheet" href="source/styles/my css.css">
-  <link rel="stylesheet" href="source/styles/bgvideo.css">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="source/files/favicon_io/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="source/files/favicon_io/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="source/files/favicon_io/favicon-16x16.png">
-  <link rel="manifest" href="source/files/favicon_io/site.webmanifest">
-
-  <title>AZ</title>
+	<meta charset="utf-8">
+	<title>Акерке и Асан Жумабаевы</title>
+	<meta property="og:title" content="Акерке и Асан Жумабаевы">
+	<meta property="og:image" content="images/ogimage.png">
+	<link rel="stylesheet"
+		href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600&amp;subset=cyrillic">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" async src="js/watch.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img src="source/images/logo-AZ 2.jpeg" alt="..."></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">Home</a>
-            </li>
+	<nav>
+		<ul>
+			<li><a href="#keynote" data-scrollto="#keynote" data-scrollto-offset="-115">Наша история</a></li>
+			<li><a href="#location" data-scrollto="#location">Место проведения</a></li>
+			<li><a href="#schedule" data-scrollto="#schedule">Программа</a></li>
+			<li><a href="#wishlist" data-scrollto="#wishlist">Что подарить?</a></li>
+			<li><a href="#contact" data-scrollto="#contact">Контакты</a></li>
+		</ul>
+	</nav>
 
-            <li class="nav-item">
-              <a class="nav-link" href="pricing.html">Pricing</a>
+	<section id="headline">
+		<div class="badge">
+			<span>Свадьба состоится</span>
+			<span class="date">17.12<br>2023</span>
+			<span>Ресторан Байтерек</span>
+		</div>
+	</section>
 
-            <li class="nav-item">
-              <a class="nav-link" href="pricing.html">Contacts</a>
-            <li class="nav-item">
-              <a class="nav-link" href="pricing.html">
-                <img style="width: 30px; margin-inline: 1em;" src="source/images/yt.png" alt="...">
-              </a>
-            <li class="nav-item">
-              <a class="nav-link" href="pricing.html">
-                <img style="width: 25px; margin-inline: 1em;" src="source/images/tg.png" alt="...">
-              </a>
-  </header>
-
-  <section>
-    <div class="bgvideo">
-      <video src="source/files/favicon_io/pexels-dima-osadchy-8960304 (1440p).mp4" type="video/mp4" autoplay muted loop></video>
-      <div class="effect"></div>
-      <div class="video-text">
-        <h1>Future's here</h1>
-      </div>
-    </div>
-
-    <div class="container-fluid mt-4">
-      <div class="row">
-        <!-- 1/12 -->
-        <div class="col-lg-1">
-        </div>
-        <!-- 8/12 -->
-        <div class="col-lg-8 col-md-12">
-          <div class="row">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                  aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class=" col-lg-6 col-md-6">
-                        <img src="source/images/gaming pc.png" class="w-100" alt="...">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem esse vero asperiores.
-                          Assumenda distinctio, nihil labore ullam earum suscipit possimus enim perspiciatis nam!</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class=" col-lg-6 col-md-6">
-                        <img src="source/images/laptop.png" class="w-100" alt="...">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolorem officia laudantium
-                          atque illum dignissimos maiores error quidem. Iusto, totam?
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="d-block w-100">
-                    <div class="row">
-                      <div class=" col-lg-6 col-md-6">
-                        <img src="source/images/controller.png" class="w-100" alt="...">
-                      </div>
-                      <div class="col-lg-6 col-md-6 slide-text">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit corporis voluptatum fuga
-                          nam tempora aut.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-            <div class="col-lg-12 col-md-12 text-center mt-4">
-              <p><button type="button" class="btn btn-outline-primary btn-lg my-4">See more</button></p>
-            </div>
-            <div class="col-lg-12 col-md-12 text-center mt-4">
-              <p>Can we help you?</p>
-            </div>
-            <div class="col-lg-12 col-md-12 text-center mt-4">
-              <img class="call-anim" style="width: 40px;" src="source/images/phone.png" alt="...">
-            </div>
-          </div>
-        </div>
-        <!-- 3/12 -->
-        <div class="col-lg-3 col-md-12">
-          <div class="row px-2">
-            <div class="col-lg-12 sidebar my-4">
-              <p>Das amet consectetur adipisicing elit. Accusantium est dolores ducimus eum
-                consequuntur quo at neque maiores, provident, fugit possimus et, doloribus optio pariatur! <a
-                  href="#">Learn more>>></a></p>
-            </div>
-            <div class="col-lg-12 sidebar my-4">
-              <p>Ait amet consectetur adipisicing elit. Accusantium est dolores ducimus eum
-                consequuntur quo at neque maiores, provident, fugit possimus et, doloribus optio pariatur! <a
-                  href="#">Learn more>>></a></p>
-            </div>
-            <div class="col-lg-12 sidebar my-4">
-              <p>Fadipisicing elit. Accusantium est dolores ducimus eum
-                consequuntur quo at neque maiores, provident, fugit possimus et, doloribus optio pariatur! <a
-                  href="#">Learn more>>></a></p>
-            </div>
-            <div class="col-lg-12 sidebar my-4">
-              <p>Lorem ipsum dolor sit amet cDugit possimus et, doloribus optio pariatur! <a href="#">Learn more>>></a>
-              </p>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-
-  </section>
-
-  <footer class="mt-4">
-    <div class="conteiner-fluid">
-      <div class="row">
-        <div class="col-lg-4 col-md-12 footer-text text-center">
-          <p>All Rights Reserved 2023</p>
-        </div>
-        <div class="col-lg-4 col-md-12 footer-text text-center">
-          <p>Contacts<br>Job<br>Out Team</p>
-        </div>
-        <div class="col-lg-4 col-md-12 media-links">
-          <img style="width: 40px; margin-inline: 1em;" src="source/images/yt.png" alt="...">
-          <img style="width: 40px; margin-inline: 1em;" src="source/images/tg.png" alt="...">
-        </div>
-      </div>
-    </div>
-
-  </footer>
+	<section id="schedule">
+		<h2>Пригласительный</h2>
+		<div class="wrapper">
+			<div class="columns">
+				<div class="cell">
+					<h3>Уважаемый Илон Маск</h3>
+					<p>Приглашаем Вас на торжественное событие в честь бракосочетания нашего сына<span>Асан</span>и танцевать от души <span>Махамбет Алтынай</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="keynote">
+		<div class="wrapper">
+			<div class="columns">
+				<div class="cell">
+					<h1>Акерке</h1>
+					<p>В 2020 г., когда объявили о карантине из-за пандемии, мою работу перевели на дистанционный
+						(онлайн) режим. Я решила поработать из своего родного города и заодно провести больше времени с
+						родителями, родными и друзьями. </p>
+					<p>В качестве досуга я начала посещать интеллектуальные игры, и в
+						один из таких дней моя сестра познакомила меня со своей коллегой. Мы обменялись номерами, начали
+						посещать игры вместе, помогать и поддерживать друг друга, часто встречаться. Я поняла, что он
+						моя родственная душа и наше общение переросло во что-то большее чем просто дружба.</p>
+				</div>
+				<div class="cell">
+					<h1>Асан</h1>
+					<p>
+						Еще до знакомства с Акерке, размышляя о будущем, я написал текст, в котором обрисовал условный
+						портрет идеальной женщины, которую хотел бы видеть рядом. Описал все — от интересов и черт
+						характера до внешних данных. Позже, о тексте я забыл и нашел его только недавно… Кроме шуток —
+						это почти на сто процентов портрет Акерке… Мистика…
+					</p>
+					<p>Вечером после работы я как обычно собрался на интеллектуальную игру чтобы совместить приятное с
+						полезным. В зале уже собрались участники, а за соседним столиком сидела моя коллега со своей
+						компанией. Среди них мой взгляд притянуло обаяние одной незнакомки. После игры моя коллега
+						познакомила с ней, она оказалась ее сестрой. Я почувствовал, что это знакомство станет началом
+						чего-то особенного.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 
 
+	<section id="location">
+		<div class="artwork">
+			<div class="logo"></div>
+		</div>
+		<div class="info">
+			<div class="wrapper">
+				<div class="columns">
+					<div class="cell car">
+						<div class="icon"></div>
+						<p>​Трасса Уральск-Желаево, 3 ст​</p>
+						<p>По Желаевской трассе напротив заправки Беркут, который находится после поворота на улицу Ружейникова</p>
+						<p class="links">
+							<a href="https://go.2gis.com/osgpj5"
+							target="_blank">Посмотреть на .2gis</a>
+						</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="invites">Вход будет осуществляться по приглашениям</div>
+	</section>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
+
+
+
+	<section id="wishlist">
+		<h2>Что подарить?</h2>
+		<h3>Сразу после свадьбы мы направимся <b>в романтическое путешествие!</b></h3>
+
+		<div class="wrapper">
+			<div class="columns">
+				<div class="cell money">
+					<p>…а путешествие, знаете, требует немалых вложений!</p>
+					<p>Мы очень просим вас, если у вас есть желание сделать нам подарок —<br> <b>дарите нам
+							исключительно деньги!</b></p>
+					<p>Каспи +7 705 206 66 09</p>
+					<p>Это будет ваш вклад в наше счастливое путешествие и незабываемые впечатления!</p>
+				</div>
+				<div class="cell badge">
+					<h4>Помогите нам порадовать вас красивыми фото с жарких стран и поделиться веселыми историями ;)
+					</h4>
+					<h4>Желающим мы привезем магнитики!</h4>
+				</div>
+				<div class="cell flower">
+					<p>И еще просьба.<br>Это прозвучит неожиданно.<br> <b>Но мы просим вас не дарить нам цветы!</b> Мы
+						любим живую природу и хотим ее, по мере сил, не травмировать лишний раз.</p>
+					<p>Лучший подарок для нас —<br> это улыбки на ваших лицах!</p>
+					<p>Спасибо за понимание!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact">
+		<h2>Контакты</h2>
+		<div class="wrapper">
+			<div class="columns">
+				<div class="cell">
+					<small>По всем вопросам обращайтесь</small>
+					<h3>Асан +7 705 206 66 09</h3>
+				</div>
+			</div>
+
+			<a class="arrow" href="#headline" data-scrollto="#headline">наверх</a>
+		</div>
+	</section>
+
+	<div class="medialink">
+		<a href="media.html">Фотографии и видеозаписи</a>
+	</div>
+
+	<script src="js/script.bundle.min.js"></script>
+	<!-- Yandex.Metrika counter -->
+	<script>
+			(function (d, w, c) {
+				(w[c] = w[c] || []).push(function () {
+					try {
+						w.yaCounter21704191 = new Ya.Metrika({
+							id: 21704191,
+							webvisor: true,
+							clickmap: true,
+							trackLinks: true,
+							accurateTrackBounce: true
+						});
+					} catch (e) { }
+				});
+
+				var n = d.getElementsByTagName("script")[0],
+					s = d.createElement("script"),
+					f = function () { n.parentNode.insertBefore(s, n); };
+				s.type = "text/javascript";
+				s.async = true;
+				s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+				if (w.opera == "[object Opera]") {
+					d.addEventListener("DOMContentLoaded", f, false);
+				} else { f(); }
+			})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><img src="//mc.yandex.ru/watch/21704191" style="position:absolute; left:-9999px;" alt></noscript>
+	<!-- /Yandex.Metrika counter -->
+
 </body>
 
 </html>

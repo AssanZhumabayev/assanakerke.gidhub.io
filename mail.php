@@ -1,3 +1,3 @@
 <?php 
-echo "thank you"
+echo "thank you";
 ?>
